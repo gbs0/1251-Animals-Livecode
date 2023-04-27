@@ -2,7 +2,7 @@ require_relative 'animal'
 
 class Lion < Animal
   def eat(food)
-    super("Chicken") + ". Law of the jungle!"
+    super + ". Law of the jungle!"
   end
 
   def talk

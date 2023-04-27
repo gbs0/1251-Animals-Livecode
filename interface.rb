@@ -13,5 +13,3 @@ animals << Meerkat.new("Timon")
 animals.each do |animal|
   puts animal.talk
 end
-
-puts simba.eat("meat")
